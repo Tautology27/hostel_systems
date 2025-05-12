@@ -1,0 +1,134 @@
+/* Reset base styles */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header {
+  width: 100%;
+  background-color: #1d3557;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-flex;
+}
+
+.home-link {
+  margin-right: 30%;
+  color: white;
+  background-color: #f57c00;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-link i {
+  font-size: 16px;
+}
+
+.home-link:hover {
+  background-color: #e65100;
+  transform: scale(1.05);
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 40px;
+  color: #333;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+th,
+td {
+  border: 1px solid #bbb;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f7f7f7;
+  color: #222;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Button styling */
+button.btn {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button.btn:hover {
+  background-color: #e64a19;
+}
+
+/* Smaller reset button variant */
+button.btn-reset {
+  padding: 5px 10px;
+  font-size: 13px;
+  background-color: #e64a19;
+}
+
+button.btn-reset:hover {
+  background-color: #d84315;
+}

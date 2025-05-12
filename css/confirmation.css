@@ -1,0 +1,61 @@
+body {
+  background-color: #f7fff7;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 15px #ccc;
+}
+
+h2 {
+  color: #2ecc71;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Confirmation Section */
+#confirmation-section {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#confirmation-section ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#confirmation-section li {
+  margin: 6px 0;
+}
+
+/* Alerts */
+.alert {
+  padding: 12px 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
